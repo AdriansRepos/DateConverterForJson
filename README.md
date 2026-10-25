@@ -16,3 +16,13 @@ string json = JsonSerializer.Serialize(objekt, options);
 ```
 
 Bez tohoto konvertoru `System.Text.Json` u vlastností typu `DateOnly` vyhazuje výjimku při serializaci i deserializaci.
+
+## Instalace jako NuGet balíček
+
+Tato knihovna je dostupná také jako balíček v **GitHub Packages**. Můžete si ji snadno přidat do svého projektu:
+
+1. Nastavte si jako zdroj balíčků váš GitHub (pokud ho ještě nemáte v NuGet.config).
+2. V **Package Manager Console** spusťte příkaz:
+   ```powershell
+   Install-Package BarevneVypisyHelper
+   ```
