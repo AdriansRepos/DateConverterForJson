@@ -4,7 +4,24 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>DateConverterForJson</PackageId>
+    <Title>DateConverterForJson</Title>
+    <Product>DateConverterForJson</Product>
+    <Authors>AdriansRepos</Authors>
+    <Description>Knihovna pro serializaci a deserializaci typu DateOnly v System.Text.Json, který ho ve výchozím stavu nepodporuje.</Description>
+    <PackageProjectUrl>https://github.com/AdriansRepos/DateConverterForJson</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AdriansRepos/DateConverterForJson</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <AssemblyVersion></AssemblyVersion>
     
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
