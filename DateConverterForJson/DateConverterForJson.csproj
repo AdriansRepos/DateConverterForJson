@@ -13,7 +13,11 @@
     <PackageProjectUrl>https://github.com/AdriansRepos/DateConverterForJson</PackageProjectUrl>
     <RepositoryUrl>https://github.com/AdriansRepos/DateConverterForJson</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <AssemblyVersion></AssemblyVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <PackageReleaseNotes>Oprava chybného názvu balíčku v příkazu pro instalaci.
+</PackageReleaseNotes>
+    <Version>1.0.1</Version>
     
   </PropertyGroup>
 
